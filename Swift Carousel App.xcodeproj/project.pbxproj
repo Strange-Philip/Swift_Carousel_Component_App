@@ -14,6 +14,7 @@
 		D4C4293C2B43713200E0206C /* Swift_Carousel_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C4293B2B43713200E0206C /* Swift_Carousel_AppTests.swift */; };
 		D4C429462B43713200E0206C /* Swift_Carousel_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C429452B43713200E0206C /* Swift_Carousel_AppUITests.swift */; };
 		D4C429482B43713200E0206C /* Swift_Carousel_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C429472B43713200E0206C /* Swift_Carousel_AppUITestsLaunchTests.swift */; };
+		D4C429582B4378E900E0206C /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C429572B4378E900E0206C /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		D4C429412B43713200E0206C /* Swift Carousel AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift Carousel AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4C429452B43713200E0206C /* Swift_Carousel_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_Carousel_AppUITests.swift; sourceTree = "<group>"; };
 		D4C429472B43713200E0206C /* Swift_Carousel_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_Carousel_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D4C429572B4378E900E0206C /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				D4C4292A2B43713000E0206C /* Swift_Carousel_AppApp.swift */,
+				D4C429542B43784800E0206C /* View */,
 				D4C4292C2B43713000E0206C /* ContentView.swift */,
 				D4C4292E2B43713200E0206C /* Assets.xcassets */,
 				D4C429302B43713200E0206C /* Preview Content */,
@@ -125,6 +128,14 @@
 				D4C429472B43713200E0206C /* Swift_Carousel_AppUITestsLaunchTests.swift */,
 			);
 			path = "Swift Carousel AppUITests";
+			sourceTree = "<group>";
+		};
+		D4C429542B43784800E0206C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D4C429572B4378E900E0206C /* Home.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4C4292D2B43713000E0206C /* ContentView.swift in Sources */,
+				D4C429582B4378E900E0206C /* Home.swift in Sources */,
 				D4C4292B2B43713000E0206C /* Swift_Carousel_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
