@@ -18,7 +18,7 @@ struct Home: View {
                 }
                 
             }
-            .scrollBounceBehavior(.continuous)
+            .scrollBounceBehavior()
         }
         .navigationTitle("Custom Indicator")
     }
